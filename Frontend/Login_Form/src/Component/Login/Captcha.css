@@ -1,0 +1,28 @@
+/* Captcha.css */
+
+.captcha-container {
+    /* text-align: center; */
+    /* margin: 50px; */
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-top: 10px;
+  }
+  
+  .captcha {
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    /* border-radius: 10px; */
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+  }
+  
+  .captcha button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
